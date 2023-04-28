@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css"
+        integrity="sha256-sWZjHQiY9fvheUAOoxrszw9Wphl3zqfVaz1kZKEvot8=" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="background-div">
+            <div class="main-calc-div me-5">
+                <div class="sub-div">
+                    <div class="heading">
+                        <span>Zakat Calculator</span>
+                    </div>
+                    <span class="money-txt txt ms-4">Enter amount of cash you have</span>
+                    <input type="text" class="form-control gold-am-div mb-4 ms-4 money-div mb-4 ms-4"
+                        placeholder="Enter Amount" id="money-div">
+                    <span class="gold-txt txt ms-4">Enter amount of Gold you have</span>
+                    <input type="text" class="form-control gold-am-div mb-4 ms-4"
+                        placeholder="Enter quantity of gold in tola" id="gold-am-div">
+                    <span class="gold-txt txt ms-4">Enter amount of silver you have</span>
+                    <input type="text" class="form-control gold-am-div mb-4 ms-4"
+                        placeholder="Enter quantity of gold in tola" id="silver-am-div">
+                    <div class="btn-div">
+                        <button type="button" onclick="calc()" class="btn-outline cal-btn button"
+                            id="cal-btn">Calculate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"
+        integrity="sha256-t0FDfwj/WoMHIBbmFfuOtZv1wtA977QCfsFR3p1K4No=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="app.js" defer></script>
+</body>
+
+</html>
